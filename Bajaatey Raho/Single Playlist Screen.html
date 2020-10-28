@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bajaatey Raho</title>
+    <!-- Website Icon -->
+    <link rel="icon"
+        href="https://png.pngtree.com/png-clipart/20190515/original/pngtree-music-and-live-music-logo-with-neon-light-effect-vector-png-image_3669646.jpg" />
+
+    <!-- it is connected to two stylesheets -->
+    <link rel="stylesheet" type="text/css" href="Single Playlist Screen Styles.css" />
+    <!-- this is the main stylesheet -->
+    <!-- desktop first approach is used for the same. -->
+    <link rel="stylesheet" type="text/css" href="Secondary page responsive.css" />
+    <!-- this is the style sheet with all the media queries -->
+    <!-- this script is just for font awesome fonts -->
+    <script src="https://kit.fontawesome.com/2d9b67a497.js" crossorigin="anonymous"></script>
+</head>
+<!-- body -->
+
+<body>
+    <!-- top navigation bar -->
+    <nav class="navigation-bar">
+        <!-- this div contains the logo and title os the page -->
+        <div class="title-combo">
+            <div class="website-logo">
+                <a href="index.html"><img src="media/website_logo.svg" /></a>
+            </div>
+            <div class="website-name">
+                <h1>
+                    <a href="index.html"> BajaateyRaho </a>
+                </h1>
+                <h4 class="website-name" style="color: cyan">Online Music Player</h4>
+            </div>
+        </div>
+        <!-- this is the animated favourites text -->
+        <div class="favs">
+            <h4>Favourites</h4>
+        </div>
+        <div class="search-bar">
+            <div>
+                <!-- magnifying glass- search icon -->
+                <i class="fas fa-search search-ico"></i>
+            </div>
+            <input type="text" name="search" placeholder="Search" />
+            <div>
+                <!-- mic icon -->
+                <i class="fas fa-microphone mic-ico"></i>
+            </div>
+        </div>
+        <!-- this is for notification bell -->
+        <div class="notification-bell">
+            <i class="fas fa-bell fa-2x"></i>
+        </div>
+        <!-- this is for profile picture -->
+        <div class="profile-picture">
+            <img src="media/profile picture/abj.ico" />
+        </div>
+    </nav>
+    <!-- this is the main center part of the page and it is divided into two sections, namely section 1 and section 2-->
+    <!-- I have separated these sections using the aside tag for each section -->
+    <main>
+        <!-- aside section 1 -->
+        <aside class="aside section-1">
+            <!-- this is for the jumbotron -->
+            <div class="jumbotron">
+                <div class="jumbotron-image">
+                    <!-- there is nothing in this div because all the images and all are added by css -->
+                </div>
+                <!-- jumbotron details -->
+                <div class="jumbotron-detail">
+                    <!-- descriptive part of the jumbotron this will contain name , number of followers and all -->
+                    <div class="descriptive-part">
+                        <div class="song-name-main">
+                            <h1 style="
+                    color: rgb(162, 0, 255);
+                    margin-bottom: 2%;
+                    padding-bottom: 2%;
+                  ">
+                                Katy Perry
+                            </h1>
+                        </div>
+                        <div class="followers">851 Followers</div>
+                        <p class="author" style="margin-bottom: 2%">American Singer</p>
+                        <!-- short description of the current author -->
+                        <p class="desc">
+                            Katheryn Elizabeth Hudson (born October 25, 1984), known
+                            professionally as Katy Perry, is an American singer, songwriter,
+                            and television judge. After singing in church during her
+                            childhood, she pursued a career in gospel music as a teenager.
+                            
+                        </p>
+                    </div>
+                    <!-- action part -->
+                    <div class="action-part">
+                        <!-- action buttons -->
+                        <div class="btns">
+                            <button>Play All</button>
+                            <button>Follow</button>
+                        </div>
+                        <p style="margin-bottom: 2%;">247 Tracks | 128 Albums</p>
+                    </div>
+                </div>
+            </div>
+            <!-- now the playlist part begins -->
+            <div class="playlist-items">
+                <!-- playlist item -->
+                <div class="playlist-item">
+                    <div class="left">
+                        <div>01</div>
+                        <div>
+                            <img src="media/playlist/austin-neill-kKlVSrFbjYY-unsplash.jpg" />
+                            <div class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                        <div>
+                            <h5>Mirage</h5>
+                            <p>Else</p>
+                        </div>
+                    </div>
+                    <div class="center">4:44</div>
+                    <div class="right">
+                        <div>
+                            <i class="far fa-heart"></i>
+                        </div>
+                        <div>
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- playlist item -->
+                <div class="playlist-item">
+                    <div class="left">
+                        <div>02</div>
+                        <div>
+                            <img src="media/playlist/brian-suman-Y1V9Gy9O8Fw-unsplash.jpg" />
+                            <div class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                        <div>
+                            <h5>Mirage</h5>
+                            <p>Else</p>
+                        </div>
+                    </div>
+                    <div class="center">3:44</div>
+                    <div class="right">
+                        <div>
+                            <i class="far fa-heart"></i>
+                        </div>
+                        <div>
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- playlist item -->
+                <div class="playlist-item">
+                    <div class="left">
+                        <div>03</div>
+                        <div>
+                            <img src="media/playlist/jacob-avanzato-2tAbcGKiaBc-unsplash.jpg" />
+                            <div class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                        <div>
+                            <h5>Mirage</h5>
+                            <p>Else</p>
+                        </div>
+                    </div>
+                    <div class="center">4:45</div>
+                    <div class="right">
+                        <div>
+                            <i class="far fa-heart"></i>
+                        </div>
+                        <div>
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- playlist item -->
+                <div class="playlist-item">
+                    <div class="left">
+                        <div>04</div>
+                        <div>
+                            <img src="media/playlist/josh-durham-VOyZSh3L-gw-unsplash.jpg" />
+                            <div class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                        <div>
+                            <h5>Mirage</h5>
+                            <p>Else</p>
+                        </div>
+                    </div>
+                    <div class="center">6:37</div>
+                    <div class="right">
+                        <div>
+                            <i class="far fa-heart"></i>
+                        </div>
+                        <div>
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- playlist item -->
+                <div class="playlist-item">
+                    <div class="left">
+                        <div>05</div>
+                        <div>
+                            <img src="media/playlist/martin-engel-grafiker-hamburg-KLFB1AEPLwA-unsplash.jpg" />
+                            <div class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                        <div>
+                            <h5>Mirage</h5>
+                            <p>Else</p>
+                        </div>
+                    </div>
+                    <div class="center">3:24</div>
+                    <div class="right">
+                        <div>
+                            <i class="far fa-heart"></i>
+                        </div>
+                        <div>
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- playlist item -->
+                <div class="playlist-item">
+                    <div class="left">
+                        <div>06</div>
+                        <div>
+                            <img src="media/playlist/neonbrand-MENIBa0eZeA-unsplash.jpg" />
+                            <div class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                        <div>
+                            <h5>Mirage</h5>
+                            <p>Else</p>
+                        </div>
+                    </div>
+                    <div class="center">4:44</div>
+                    <div class="right">
+                        <div>
+                            <i class="far fa-heart"></i>
+                        </div>
+                        <div>
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- playlist item -->
+                <div class="playlist-item">
+                    <div class="left">
+                        <div>07</div>
+                        <div>
+                            <img src="media/playlist/solozeta--VRtMRpcrVg-unsplash.jpg" />
+                            <div class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                        <div>
+                            <h5>Mirage</h5>
+                            <p>Else</p>
+                        </div>
+                    </div>
+                    <div class="center">4:44</div>
+                    <div class="right">
+                        <div>
+                            <i class="far fa-heart"></i>
+                        </div>
+                        <div>
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- playlist item -->
+                <div class="playlist-item">
+                    <div class="left">
+                        <div>08</div>
+                        <div>
+                            <img src="media/playlist/stan-bonke-LIjUr3B9IXE-unsplash.jpg" />
+                            <div class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                        <div>
+                            <h5>Mirage</h5>
+                            <p>Else</p>
+                        </div>
+                    </div>
+                    <div class="center">4:44</div>
+                    <div class="right">
+                        <div>
+                            <i class="far fa-heart"></i>
+                        </div>
+                        <div>
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- playlist item -->
+                <div class="playlist-item">
+                    <div class="left">
+                        <div>09</div>
+                        <div>
+                            <img src="media/playlist/thomas-millot-uyrYy3ogw58-unsplash.jpg" />
+                            <div class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                        <div>
+                            <h5>Mirage</h5>
+                            <p>Else</p>
+                        </div>
+                    </div>
+                    <div class="center">4:44</div>
+                    <div class="right">
+                        <div>
+                            <i class="far fa-heart"></i>
+                        </div>
+                        <div>
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- playlist item -->
+                <div class="playlist-item">
+                    <div class="left">
+                        <div>10</div>
+                        <div>
+                            <img src="media/playlist/valery-escobar-llanos-D46gUK33HVY-unsplash.jpg" />
+                            <div class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                        <div>
+                            <h5>Mirage</h5>
+                            <p>Else</p>
+                        </div>
+                    </div>
+                    <div class="center">4:44</div>
+                    <div class="right">
+                        <div>
+                            <i class="far fa-heart"></i>
+                        </div>
+                        <div>
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- playlist item -->
+                <div class="playlist-item">
+                    <div class="left">
+                        <div>11</div>
+                        <div>
+                            <img src="media/playlist/vidar-nordli-mathisen-Me5rtdNmIrU-unsplash.jpg" />
+                            <div class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                        <div>
+                            <h5>Mirage</h5>
+                            <p>Else</p>
+                        </div>
+                    </div>
+                    <div class="center">4:44</div>
+                    <div class="right">
+                        <div>
+                            <i class="far fa-heart"></i>
+                        </div>
+                        <div>
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- playlist item -->
+                <div class="playlist-item">
+                    <div class="left">
+                        <div>12</div>
+                        <div>
+                            <img src="media/playlist/vinicius-amnx-amano-ABaMFrKOGng-unsplash.jpg" />
+                            <div class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                        <div>
+                            <h5>Mirage</h5>
+                            <p>Else</p>
+                        </div>
+                    </div>
+                    <div class="center">4:44</div>
+                    <div class="right">
+                        <div>
+                            <i class="far fa-heart"></i>
+                        </div>
+                        <div>
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </aside>
+        <!-- one aside section is complete -->
+        <!-- now the second aside section will start from here -->
+        <!-- the page is responsive. please try reducing the width of the page -->
+        <!-- the aside section will collapse and a "more button will be shown to you." -->
+        <!-- clicking on this more button, you will be shown the aside section 2  -->
+        <!-- its position will be absolute at lower resolutions -->
+        <!-- this is the label for that more button -->
+        <label for="more"><i class="fas fa-angle-double-left"></i>More</label>
+        <!-- this is that more button -->
+        <!-- and this is the check box. this will always be hidden -->
+        <!-- check the stylesheet_main.css when the label is clicked, this checkbox will be checked -->
+        <!-- which will invoke the aside section 2 on lower resolutions -->
+        <input type="checkbox" id="more" />
+        <!-- </div> -->
+        <aside class="aside section-2">
+            <!-- similar class will be applicable to both similar artists and recently played -->
+            <div class="similar">
+                <!-- section heading, which also contains the view all button -->
+                <div class="section-heading">
+                    <h1>Similar Artists</h1>
+                    <div class="view-all-button">View All</div>
+                </div>
+                <!-- list is the container for the contents of similar artists -->
+                <div class="list">
+                    <!-- item -->
+                    <div class="list-item">
+                        <div>
+                            <img src="media/music themes/love.jpg" />
+                            <div class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                        <div style="position: absolute; left: 120px">
+                            <h5>Mirage</h5>
+                            <p class="author-name">Else</p>
+                        </div>
+                        <div class="extra">
+                            <div>
+                                <i class="fas fa-ellipsis-h"></i>
+                            </div>
+                            <p class="author-name">4:44</p>
+                        </div>
+                    </div>
+                    <!-- item -->
+                    <div class="list-item">
+                        <div>
+                            <img src="media/music themes/pop.jpg" />
+                            <div class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                        <div style="position: absolute; left: 120px">
+                            <h5>Mirage</h5>
+                            <p class="author-name">Else</p>
+                        </div>
+                        <div class="extra">
+                            <div>
+                                <i class="fas fa-ellipsis-h"></i>
+                            </div>
+                            <p class="author-name">4:44</p>
+                        </div>
+                    </div>
+                    <!-- item -->
+                    <div class="list-item">
+                        <div>
+                            <img src="media/music themes/rock.jpg" />
+                            <div class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                        <div style="position: absolute; left: 120px">
+                            <h5>Mirage</h5>
+                            <p class="author-name">Else</p>
+                        </div>
+                        <div class="extra">
+                            <div>
+                                <i class="fas fa-ellipsis-h"></i>
+                            </div>
+                            <p class="author-name">4:44</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- recently played section -->
+                <div class="similar" style="margin-top: 10%;">
+                    <!-- section headings, which also contains the view all button -->
+                    <div class="section-heading">
+                        <h1>Recently Played</h1>
+                        <div class="view-all-button">View All</div>
+                    </div>
+                    <!-- again list is a container for all the contents of recently played section -->
+                    <div class="list">
+                        <!-- item -->
+                        <div class="playlist-item">
+                            <div class="left">
+                                <div>01</div>
+                                <div>
+                                    <img src="media/latest english/I'll Wait.jpg" />
+                                    <div class="play-btn">
+                                        <i class="fas fa-play"></i>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h5>Mirage</h5>
+                                    <p>Else</p>
+                                </div>
+                            </div>
+                            <div class="right">
+                                <div>
+                                    <i class="far fa-heart"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- item -->
+                        <div class="playlist-item">
+                            <div class="left">
+                                <div>02</div>
+                                <div>
+                                    <img src="media/latest english/let me go.jpg" />
+                                    <div class="play-btn">
+                                        <i class="fas fa-play"></i>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h5>Mirage</h5>
+                                    <p>Else</p>
+                                </div>
+                            </div>
+                            <div class="right">
+                                <div>
+                                    <i class="far fa-heart"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- item -->
+                        <div class="playlist-item">
+                            <div class="left">
+                                <div>03</div>
+                                <div>
+                                    <img src="media/latest english/qurantine clean.jpg" />
+                                    <div class="play-btn">
+                                        <i class="fas fa-play"></i>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h5>Mirage</h5>
+                                    <p>Else</p>
+                                </div>
+                            </div>
+                            <div class="right">
+                                <div>
+                                    <i class="far fa-heart"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- item -->
+                        <div class="playlist-item">
+                            <div class="left">
+                                <div>04</div>
+                                <div>
+                                    <img src="media/latest english/roar.jpg" />
+                                    <div class="play-btn">
+                                        <i class="fas fa-play"></i>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h5>Mirage</h5>
+                                    <p>Else</p>
+                                </div>
+                            </div>
+                            <div class="right">
+                                <div>
+                                    <i class="far fa-heart"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- item -->
+                        <div class="playlist-item">
+                            <div class="left">
+                                <div>05</div>
+                                <div>
+                                    <img src="media/latest english/toosie slide.jpg" />
+                                    <div class="play-btn">
+                                        <i class="fas fa-play"></i>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h5>Mirage</h5>
+                                    <p>Else</p>
+                                </div>
+                            </div>
+                            <div class="right">
+                                <div>
+                                    <i class="far fa-heart"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- item -->
+                        <div class="playlist-item">
+                            <div class="left">
+                                <div>06</div>
+                                <div>
+                                    <img src="media/latest english/uptown funk.png" />
+                                    <div class="play-btn">
+                                        <i class="fas fa-play"></i>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h5>Mirage</h5>
+                                    <p>Else</p>
+                                </div>
+                            </div>
+                            <div class="right">
+                                <div>
+                                    <i class="far fa-heart"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- item -->
+                        <div class="playlist-item">
+                            <div class="left">
+                                <div>07</div>
+                                <div>
+                                    <img src="media/latest hindi/baarish.jpeg" />
+                                    <div class="play-btn">
+                                        <i class="fas fa-play"></i>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h5>Mirage</h5>
+                                    <p>Else</p>
+                                </div>
+                            </div>
+                            <div class="right">
+                                <div>
+                                    <i class="far fa-heart"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- item -->
+                        <div class="playlist-item">
+                            <div class="left">
+                                <div>08</div>
+                                <div>
+                                    <img src="media/latest hindi/galiyaan.jpg" />
+                                    <div class="play-btn">
+                                        <i class="fas fa-play"></i>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h5>Mirage</h5>
+                                    <p>Else</p>
+                                </div>
+                            </div>
+                            <div class="right">
+                                <div>
+                                    <i class="far fa-heart"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- item -->
+                        <div class="playlist-item">
+                            <div class="left">
+                                <div>09</div>
+                                <div>
+                                    <img src="media/latest hindi/giveme some sunshine.jpg" />
+                                    <div class="play-btn">
+                                        <i class="fas fa-play"></i>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h5>Mirage</h5>
+                                    <p>Else</p>
+                                </div>
+                            </div>
+                            <div class="right">
+                                <div>
+                                    <i class="far fa-heart"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </aside>
+    </main>
+
+    <!-- main part of the page is over. -->
+    <!-- this is the footer part. -->
+    <!-- its position will be fixed to the screen bottom. -->
+    <!-- holds the interface of bottom navbar -->
+
+    <section id="music-playing-now">
+
+        <div class="music-playing-now-items">
+            <div id="music-playing-now-details">
+                <div id="music-playing-now-details-photo">
+                    <a href="Single Playlist Screen.html">
+                        <img src="media/popular artists/shakira.jpg" /></a>
+                </div>
+                <div id="music-playing-now-details-info">
+                    <div id="music-playing-now-songname">Imagine Dragons</div>
+                    <div id="music-playing-now-singername">John Lennon</div>
+                </div>
+                <div id="music-playing-now-details-favourite">
+                    <i class="fas fa-heart"></i>
+                </div>
+                <div id="music-playing-now-details-nolike">
+                    <i class="fas fa-microphone-slash"></i>
+                </div>
+            </div>
+        </div>
+        <div class="music-playing-now-items" style="width: 300px">
+            <div id="music-playing-now-bar">
+                <div id="music-playing-now-bar-controls">
+                    <div><i class="fas fa-random"></i></div>
+                    <div><i class="fas fa-step-backward"></i></div>
+                    <div style="font-size: 2.5rem">
+                        <i class="fas fa-pause-circle"></i>
+                    </div>
+                    <div><i class="fas fa-step-forward"></i></div>
+                    <div><i class="fas fa-redo"></i></div>
+                </div>
+                <div id="music-playing-now-bar-indicator">
+                    <div>1:39</div>
+                    <div id="music-playing-now-indicator-circle">
+                        <div>
+                            <div></div>
+                        </div>
+                    </div>
+                    <div>4:44</div>
+                </div>
+            </div>
+        </div>
+        <div class="music-playing-now-items">
+            <div id="music-playing-now-more-control">
+                <div><i class="fas fa-sort-amount-down"></i></div>
+                <div><i class="fas fa-headphones"></i></div>
+                <div><i class="fas fa-volume-up"></i></div>
+                <div><i class="fas fa-angle-double-up"></i></div>
+                <div><i class="fas fa-angle-double-down"></i></div>
+                <div>
+                    <a href="Single Playlist Screen.html"><i class="fas fa-expand"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
