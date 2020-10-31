@@ -1,0 +1,88 @@
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-family: Gotham Rounded, sans-serif;
+    font-weight: normal;
+  }
+  
+  /* styling the background and padding and margin is zero so background spreades over the entire screen*/
+  body {
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(to right, #00AAFF, #00FF6C);
+  }
+  
+  /* Setting minheight:100vh which essntially it is going to fill 100% of height all the time */
+  /* setting the display to grid and bringing all the items to center of the screen */
+  .calculator-grid {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    min-height: 100vh;
+    /* 4 columns and which of them is going to be 100px wide */
+    grid-template-columns: repeat(4, 100px);
+    /* Five rows and each of them is 100px wide */
+    /* perfect square buttons will be apppeared */
+    grid-template-rows: minmax(120px, auto) repeat(5, 100px);
+  }
+  
+  .calculator-grid > button {
+    cursor: pointer;
+    font-size: 2rem;
+    border: 1px solid white;
+    outline: none;
+    background-color: rgba(255, 255, 255, .75);
+  }
+  
+  .calculator-grid > button:hover {
+    background-color: rgba(255, 255, 255, .9);
+  }
+  
+
+  .span-two {
+  grid-column: span 2;
+}
+
+.output {
+   
+  /* For Taking up entire space from left to right. This is the output Display
+  of the calculator. From column no. 1 till the very last column*/
+ 
+  grid-column: 1 / -1;
+
+
+  /* background of the display screen to be black */
+  background-color: rgba(0, 0, 0, .75);
+
+  /* For aligning our elements it is best if we use flex */
+  display: flex;
+
+  /*We want to align them  */
+  align-items: flex-end;
+
+  justify-content: space-around;
+
+  /* Now they will align vertically */
+  flex-direction: column;
+
+  /* Want to place our previousOPerand and CurrentOperand a bit closer to each other */
+  padding: 10px;
+
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+.output .previous-operand {
+  color: rgba(255, 255, 255, .75);
+  font-size: 1.5rem;
+}
+
+.output .current-operand {
+  color: white;
+  font-size: 2.5rem;
+}
+
+.heading{
+    text-align: center;
+    margin-top: 90px;
+}
